@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="main-container">
+        <div class="sidebar">
+          <header>
+            <div class="menu">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="36"
+                height="36"
+                fill="currentColor"
+                class="bi bi-list"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+                />
+              </svg>
+            </div>
+            <div class="logo">
+              <img src="Images/logo.png" alt="" class="logo-img" />
+            </div>
+          </header>
+          <div class="first-segment">
+            <div class="fs-flex" style="background-color: rgb(31, 33, 33)">
+              <div class="fs-ic">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-house-door-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"
+                  />
+                </svg>
+              </div>
+              <div class="fs-txt">Home</div>
+            </div>
+            <div class="fs-flex">
+              <div class="fs-ic">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-film"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm4 0v6h8V1zm8 8H4v6h8zM1 1v2h2V1zm2 3H1v2h2zM1 7v2h2V7zm2 3H1v2h2zm-2 3v2h2v-2zM15 1h-2v2h2zm-2 3v2h2V4zm2 3h-2v2h2zm-2 3v2h2v-2zm2 3h-2v2h2z"
+                  />
+                </svg>
+              </div>
+              <div class="fs-txt">Shorts</div>
+            </div>
+            <div class="fs-flex">
+              <div class="fs-ic">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-substack"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M15 3.604H1v1.891h14v-1.89ZM1 7.208V16l7-3.926L15 16V7.208zM15 0H1v1.89h14z"
+                  />
+                </svg>
+              </div>
+              <div class="fs-txt">Subscription</div>
+            </div>
+          </div>
+
+          <hr
+            style="
+              width: 270px;
+              border: 1px solid rgb(79, 75, 75);
+              margin-top: 30px;
+            "
+          />
+
+          <h2
+            style="
+              color: white;
+              font-weight: 600;
+              font-size: 20px;
+              margin: 20px 10px;
+            "
+          >
+            You >
+          </h2>
+
+          <div class="first-segment">
+            <div class="fs-flex" style="background-color: rgb(31, 33, 33)">
+              <div class="fs-ic">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-person-rolodex"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M8 9.05a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                  <path
+                    d="M1 1a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h.5a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h.5a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H6.707L6 1.293A1 1 0 0 0 5.293 1zm0 1h4.293L6 2.707A1 1 0 0 0 6.707 3H15v10h-.085a1.5 1.5 0 0 0-2.4-.63C11.885 11.223 10.554 10 8 10c-2.555 0-3.886 1.224-4.514 2.37a1.5 1.5 0 0 0-2.4.63H1z"
+                  />
+                </svg>
+              </div>
+              <div class="fs-txt">Your Channel</div>
+            </div>
+            <div class="fs-flex">
+              <div class="fs-ic">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-clock-history"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8.515 1.019A7 7 0 0 0 8 1V0a8 8 0 0 1 .589.022zm2.004.45a7 7 0 0 0-.985-.299l.219-.976q.576.129 1.126.342zm1.37.71a7 7 0 0 0-.439-.27l.493-.87a8 8 0 0 1 .979.654l-.615.789a7 7 0 0 0-.418-.302zm1.834 1.79a7 7 0 0 0-.653-.796l.724-.69q.406.429.747.91zm.744 1.352a7 7 0 0 0-.214-.468l.893-.45a8 8 0 0 1 .45 1.088l-.95.313a7 7 0 0 0-.179-.483m.53 2.507a7 7 0 0 0-.1-1.025l.985-.17q.1.58.116 1.17zm-.131 1.538q.05-.254.081-.51l.993.123a8 8 0 0 1-.23 1.155l-.964-.267q.069-.247.12-.501m-.952 2.379q.276-.436.486-.908l.914.405q-.24.54-.555 1.038zm-.964 1.205q.183-.183.35-.378l.758.653a8 8 0 0 1-.401.432z"
+                  />
+                  <path
+                    d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0z"
+                  />
+                  <path
+                    d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5"
+                  />
+                </svg>
+              </div>
+              <div class="fs-txt">History</div>
+            </div>
+            <div class="fs-flex">
+              <div class="fs-ic">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-music-note-list"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2"
+                  />
+                  <path fill-rule="evenodd" d="M12 3v10h-1V3z" />
+                  <path
+                    d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1z"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5m0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5m0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5"
+                  />
+                </svg>
+              </div>
+              <div class="fs-txt">PlayLists</div>
+            </div>
+            <div class="fs-flex">
+              <div class="fs-ic">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-youtube"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"
+                  />
+                </svg>
+              </div>
+              <div class="fs-txt">Your Videos</div>
+            </div>
+            <div class="fs-flex">
+              <div class="fs-ic">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-stopwatch-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M6.5 0a.5.5 0 0 0 0 1H7v1.07A7.001 7.001 0 0 0 8 16a7 7 0 0 0 5.29-11.584l.013-.012.354-.354.353.354a.5.5 0 1 0 .707-.707l-1.414-1.415a.5.5 0 1 0-.707.707l.354.354-.354.354-.012.012A6.97 6.97 0 0 0 9 2.071V1h.5a.5.5 0 0 0 0-1zm2 5.6V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 1 1 1 0"
+                  />
+                </svg>
+              </div>
+              <div class="fs-txt">Watch Later</div>
+            </div>
+            <div class="fs-flex">
+              <div class="fs-ic">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-hand-thumbs-up-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a10 10 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733q.086.18.138.363c.077.27.113.567.113.856s-.036.586-.113.856c-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.2 3.2 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16H8c-.605 0-1.07-.081-1.466-.218a4.8 4.8 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z"
+                  />
+                </svg>
+              </div>
+              <div class="fs-txt">Liked Videos</div>
+            </div>
+            <hr
+              style="
+                width: 270px;
+                border: 1px solid rgb(79, 75, 75);
+                margin-top: 30px;
+              "
+            />
+          </div>
+
+          <h2
+            style="
+              color: white;
+              font-weight: 600;
+              font-size: 20px;
+              margin: 20px 10px;
+            "
+          >
+            Subscription
+          </h2>
+
+          <div class="first-segment">
+            <div class="fs-flex" style="background-color: rgb(31, 33, 33)">
+              <div class="fs-ic">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-house-door-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"
+                  />
+                </svg>
+              </div>
+              <div class="fs-txt">Home</div>
+            </div>
+            <div class="fs-flex">
+              <div class="fs-ic">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-film"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm4 0v6h8V1zm8 8H4v6h8zM1 1v2h2V1zm2 3H1v2h2zM1 7v2h2V7zm2 3H1v2h2zm-2 3v2h2v-2zM15 1h-2v2h2zm-2 3v2h2V4zm2 3h-2v2h2zm-2 3v2h2v-2zm2 3h-2v2h2z"
+                  />
+                </svg>
+              </div>
+              <div class="fs-txt">Shorts</div>
+            </div>
+            <div class="fs-flex">
+              <div class="fs-ic">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-substack"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M15 3.604H1v1.891h14v-1.89ZM1 7.208V16l7-3.926L15 16V7.208zM15 0H1v1.89h14z"
+                  />
+                </svg>
+              </div>
+              <div class="fs-txt">Subscription</div>
+            </div>
+          </div>
+        </div>
+        <div class="mainbar">
+          <div class="fixing">
+            <div class="nav-container">
+              <div class="in-field">
+                <input type="text" class="in" />
+                <div class="search">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="26"
+                    fill="currentColor"
+                    class="bi bi-search"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+                    />
+                  </svg>
+                </div>
+
+                <div class="voice">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-mic-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0z" />
+                    <path
+                      d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <div class="nav-icons">
+                <div class="v">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="26"
+                    fill="currentColor"
+                    class="bi bi-camera-reels"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0M1 3a2 2 0 1 0 4 0 2 2 0 0 0-4 0"
+                    />
+                    <path
+                      d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2zm6 8.73V7.27l-3.5 1.555v4.35zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1"
+                    />
+                    <path
+                      d="M9 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6M7 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0"
+                    />
+                  </svg>
+                </div>
+                <div class="notif">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="26"
+                    fill="currentColor"
+                    class="bi bi-bell-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901"
+                    />
+                  </svg>
+                </div>
+                <div class="prof">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="26"
+                    fill="currentColor"
+                    class="bi bi-person-circle"
+                    viewBox="0 0 16 16"
+                  >
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                    <path
+                      fill-rule="evenodd"
+                      d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <div class="btn-segments">
+              <button
+                class="txt-icon"
+                style="background-color: white; color: black"
+              >
+                All
+              </button>
+              <button class="txt-icon">News</button>
+              <button class="txt-icon">Music</button>
+              <button class="txt-icon">Live</button>
+              <button class="txt-icon">Polimer</button>
+              <button class="txt-icon">Musics</button>
+              <button class="txt-icon">Dhanush</button>
+              <button class="txt-icon">Recruitment</button>
+              <button class="txt-icon">Tamil Cinema</button>
+              <button class="txt-icon">Biriyani</button>
+              <button class="txt-icon">Twitter</button>
+              <button class="txt-icon">Vijay</button>
+              <div style="color: white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-chevron-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="vid-sec">
+            <div class="vid-con">
+              <div class="card">
+                <img
+                  src="https://i.ytimg.com/vi/vlLW3bx3iOk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLASsRm2bxLrrpXVv6muTAeA2EDqfw"
+                  alt=""
+                  class="thumb"
+                />
+                <div class="card-con">
+                  <img
+                    src="https://yt3.ggpht.com/ZdHBp7KqHcbedATfUdjBSTCrUSs0fytbJc-ICG8VyPO3oYqQ2bV6P6Ty4xkOm5f4CzTArEAugQ=s68-c-k-c0x00ffffff-no-rj"
+                    alt=""
+                    class="c-logo"
+                  />
+                  <p>
+                    Sreeleela's 440Volt Dance Moves⚡💖Fans get ELECTRIC ZAPS!
+                    Kurchi Madathapetti
+                  </p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  src="https://i.ytimg.com/vi/Ps0lneEI6Ik/hq720_live.jpg?sqp=CJD6p7UG-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAoMni_yYqDH-dlX9po8rOiA5nEwQ"
+                  alt=""
+                  class="thumb"
+                />
+                <div class="card-con">
+                  <img
+                    src="https://yt3.ggpht.com/0zU7RFHKd8juLeLQCWec71SFrUaF4AE-uTqxkGVKFaVCaBrpEIlcX7S3Y9mjbpxyzoCaC0xOAMQ=s68-c-k-c0x00ffffff-no-rj"
+                    alt=""
+                    class="c-logo"
+                  />
+                  <p>
+                    HurryUp🤯TCS, WIPRO MASS HIRING 40,000 FRESHERS🔥🔴HUGE OPPORTUNITY🚀
+                  </p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  src="https://i.ytimg.com/vi/2lfcK7grxe0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAzTdV5hQPdMhYEeOSsRG4FT5XWIQ"
+                  alt=""
+                  class="thumb"
+                />
+                <div class="card-con">
+                  <img
+                    src="https://yt3.ggpht.com/FzCPTW3JofU4ZbaD6t8_mcuy1iK9ZpIF-c9ZdMrwdkA7jTF94_WMxs1dIBB3jZqXBWYeUCGvtQ=s68-c-k-c0x00ffffff-no-rj"
+                    alt=""
+                    class="c-logo"
+                  />
+                  <p>
+                    HurryUp🤯TCS, WIPRO MASS HIRING 40,000 FRESHERS🔥🔴HUGE OPPORTUNITY🚀
+                  </p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  src="https://i.ytimg.com/vi/DkWS6nifcD0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBqUIb3S09U-40rdNBRzG8YlkezZQ"
+                  alt=""
+                  class="thumb"
+                />
+                <div class="card-con">
+                  <img
+                    src="https://yt3.ggpht.com/ytc/AIdro_lmkpMBVl7bEwj4CP1jkow9Fw04rPx7r9aHAEt0MxM8Pr0=s68-c-k-c0x00ffffff-no-rj"
+                    alt=""
+                    class="c-logo"
+                  />
+                  <p>
+                    Mesmerizing Performance by Sai Abhyankkar | Preity Mukundhan | Aasa Kooda | Sun Music
+                  </p>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <img
+                  src="https://i.ytimg.com/vi/bi5ahetDK7k/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDGZOKBbq4hCyMBFp6fGG16s4tIPg"
+                  alt=""
+                  class="thumb"
+                />
+                <div class="card-con">
+                  <img
+                    src="https://yt3.ggpht.com/4m7yvjIhOhtCXb905kcNQl6EXt5AzDXvmx6pN5WxbMtd1hylOZDESw6lvV77UjPWtQ--JizW8w=s68-c-k-c0x00ffffff-no-rj"
+                    alt=""
+                    class="c-logo"
+                  />
+                  <p>
+                    Wayanad Landslide: Death Toll Rises To 123 In Landslides In Kerala's Wayanad | Kerala
+                  </p>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <img
+                  src="https://i.ytimg.com/vi/i_oB5wy-Bj8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDoVjYwSmBjDN54b81yjExif1YiNA"
+                  alt=""
+                  class="thumb"
+                />
+                <div class="card-con">
+                  <img
+                    src="https://yt3.ggpht.com/ytc/AIdro_lmREv_FLp3n4AYRRKQuovAx6XXUcpU7Ew9oc1pnB2nzvE=s68-c-k-c0x00ffffff-no-rj"
+                    alt=""
+                    class="c-logo"
+                  />
+                  <p>
+                    Alia's MATERNITY PHOTOSHOOT Vlog | Part:4 - Irfan's View❤️
+                    Irfan's view.
+                
+                    
+                  </p>
+                </div>
+              </div>
+              
+
+              <div class="card">
+                <img
+                  src="https://i.ytimg.com/vi/09vxlqHK3ss/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDd-BICzy5P7gT5QwzPN00VXc2PHQ"
+                  alt=""
+                  class="thumb"
+                />
+                <div class="card-con">
+                  <img
+                    src="https://yt3.ggpht.com/ytc/AIdro_kdFSFaUrMKl1-R4r1J2XUBvWPTZJfUTCD4Y16SSczWCP4=s68-c-k-c0x00ffffff-no-rj"
+                    alt=""
+                    class="c-logo"
+                  />
+                  <p>
+                    #RAAYAN - Water Packet Lyric Video | Dhanush | Sun Pictures | A.R. Rahman | Santhosh Narayanan
+                
+                    
+                  </p>
+                </div>
+              </div>
+              
+
+              <div class="card">
+                <img
+                  src="https://i.ytimg.com/vi/4oIXd_L7y4I/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAMXQUHznlXRmbnTAyqi39AeHpZBg"
+                  alt=""
+                  class="thumb"
+                />
+                <div class="card-con">
+                  <img
+                    src="https://yt3.ggpht.com/XbQzM4yHXj1_Q6fJps9CD9xsRzPlHvBDW_sLaoXxY8-v1U0t6gk5rj0mzT0vJNAZ4WAnLfdr=s68-c-k-c0x00ffffff-no-rj"
+                    alt=""
+                    class="c-logo"
+                  />
+                  <p>
+                    Momu And Bittu | Azhagiya Asura | Making | Manoj Jackson | Deepika Damu
+                
+                    
+                  </p>
+                </div>
+              </div>
+              
+
+              <div class="card">
+                <img
+                  src="https://i.ytimg.com/vi/G3K4FHVXv0Q/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB8SC2Z-XCsWZpMpCNzpxpwuWS0TQ"
+                  alt=""
+                  class="thumb"
+                />
+                <div class="card-con">
+                  <img
+                    src="https://yt3.ggpht.com/nJe_SVpWolKRUUIZijG8Skci04VrgN9uBqEe4oVPKPiLnzCpar5qcwADpPJNNVOWoMeZA3M2RQ=s88-c-k-c0x00ffffff-no-rj"
+                    alt=""
+                    class="c-logo"
+                  />
+                  <p>
+                    Anirudh Mega Concert Usa
+                
+                    
+                  </p>
+                </div>
+              </div>
+              
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
